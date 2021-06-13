@@ -1,5 +1,11 @@
 body {background-color:black;font-family:arial;color:white}
 h1{color:grey;font-family:verdana}
+input[type=number], [type=rage], select{
+    margin: 8px 0;
+    
+}
+
+
 
  .maindiv {
     background-color: white;
@@ -7,6 +13,7 @@ h1{color:grey;font-family:verdana}
     padding: 20px;
     border-radius: 25px;
     margin: auto;
+   
     
 } 
 
