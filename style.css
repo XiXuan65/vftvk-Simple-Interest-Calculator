@@ -5,17 +5,18 @@ input[type=number], [type=rage], select{
     
 }
 
-
-
- .maindiv {
+.maindiv {
+    color: black;
+    display: inline-block;    
+    margin-left: 40px;
     background-color: white;
-    color:black;
+    width: fit-content;
     padding: 20px;
     border-radius: 25px;
-    margin: auto;
-   
     
-} 
+}
+
+
 
 footer {
     text-align: left;

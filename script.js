@@ -16,13 +16,12 @@ function compute()
 function updateRate() 
 {
     var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText=rateval + "%";
 }
 function validateAmount() {
     var principal = document.getElementById("principal").value;
-    var biggerThanZero = parseInt(principal) > 0;
-    if (!biggerThanZero) {
+    if (!(parseInt(principal) > 0)) {
         alert("Enter a positive number");
         document.getElementById("principal").focus();
-    }
+    } 
 }
